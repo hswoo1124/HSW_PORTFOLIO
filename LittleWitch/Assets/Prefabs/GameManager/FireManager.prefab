@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &127038795234607012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127038795234607014}
+  - component: {fileID: 127038795234607013}
+  m_Layer: 0
+  m_Name: FireManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &127038795234607014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127038795234607012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &127038795234607013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127038795234607012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018bbaf27d7241d439faef1cdac8643b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectiles:
+  - {fileID: 186734, guid: f4eb96565840e0a4685c808f7c640dfe, type: 3}
+  - {fileID: 186734, guid: 2c984135c9a15bb458d8e40d36c832c6, type: 3}
+  - {fileID: 186734, guid: 47f2edb5d87216f4a86c7d0509a2bc95, type: 3}
+  - {fileID: 186734, guid: c422738f3b0b6f64291e792aedf8f42f, type: 3}
+  - {fileID: 186734, guid: b838371bde088974e832a2caa1ac7857, type: 3}
+  spawnPosition: {fileID: 0}
+  spawnPos_Left1: {fileID: 0}
+  spawnPos_Right1: {fileID: 0}
+  currentProjectile: 0
+  shootTarget: {fileID: 0}
+  shootTarget_Left1: {fileID: 0}
+  shootTarget_Right1: {fileID: 0}
+  sjs: {fileID: 0}
+  chargeSlider: {fileID: 0}
+  coolUIList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isEndpoint: 0
+  isPointerUp: 0
+  isCharge: 0
+  maxCharge: 0
+  currentCharge: 0
+  chargeMulti: 1
+  speedMulti: 0
+  increasedSpeed: 0
+  mana: 0

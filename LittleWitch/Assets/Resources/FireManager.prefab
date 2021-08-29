@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7535997664387965272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7535997664387965274}
+  - component: {fileID: 763983496780450986}
+  - component: {fileID: 3130351784856249328}
+  - component: {fileID: 6340939969114466107}
+  m_Layer: 0
+  m_Name: FireManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7535997664387965274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535997664387965272}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 346.63223, y: -4.9839287, z: 280.78207}
+  m_LocalScale: {x: 6.229911, y: 6.229911, z: 6.229911}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &763983496780450986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535997664387965272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd3eef48af335ab4481b7373c08ef5a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectiles:
+  - {fileID: 186734, guid: f4eb96565840e0a4685c808f7c640dfe, type: 3}
+  - {fileID: 186734, guid: 2c984135c9a15bb458d8e40d36c832c6, type: 3}
+  - {fileID: 186734, guid: c422738f3b0b6f64291e792aedf8f42f, type: 3}
+  - {fileID: 186734, guid: c422738f3b0b6f64291e792aedf8f42f, type: 3}
+  - {fileID: 186734, guid: c422738f3b0b6f64291e792aedf8f42f, type: 3}
+  spawnPosition: {fileID: 0}
+  spawnPos_Left1: {fileID: 0}
+  spawnPos_Right1: {fileID: 0}
+  currentProjectile: 0
+  shootTarget: {fileID: 0}
+  shootTarget_Left1: {fileID: 0}
+  shootTarget_Right1: {fileID: 0}
+  sjs: {fileID: 0}
+  chargeSlider: {fileID: 0}
+  coolUIList: []
+  isPointerUp: 0
+  isCharge: 0
+  maxCharge: 0
+  currentCharge: 0
+  chargeMulti: 1
+  speedMulti: 0
+  increasedSpeed: 0
+  speed: 0
+  wcp: {fileID: 0}
+  slot1_SkillId: 0
+  slot2_SkillId: 0
+  slot3_SkillId: 0
+--- !u!114 &3130351784856249328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535997664387965272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+--- !u!114 &6340939969114466107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7535997664387965272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 3130351784856249328}
+  viewIdField: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

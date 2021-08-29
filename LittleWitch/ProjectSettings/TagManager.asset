@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BlockObject
+  - TransparentCheck
+  - EndBlockObject
+  - WallConnectCheck
+  - Monsters
+  - Entrance
+  - SideWall_top
+  - SideWall_left
+  - SideWall_bottom
+  - SideWall_right
+  - Text_002
+  - Spot_001
+  - BG_001
+  - Icon_001
+  - BG_002
+  - Spot_002
+  - BG
+  - NumberText
+  - InventoryItem
+  - PercentageText
+  - Projectile
+  - Impact
+  - Missile
+  - Projectile_Trigger
+  - Impact_Trigger
+  - Text_001
+  - MonsterWeapon_Trigger
+  - Ground_Trigger
+  - MeteoPos
+  - DOT_trigger
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - OntriggerCheck
+  - Navmesh
+  - WallAndPlayer
+  - RangeWeapon
+  - Player_Magic
+  - Boss_Body
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
